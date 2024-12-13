@@ -1,0 +1,102 @@
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+body {
+  /* margin: 0; */
+  background-image: url("assets/basketball image.jpg");
+  height: 100%;
+  background-size: cover no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% auto;
+  max-width: 45rem;
+  min-height: 33rem;
+  box-shadow: 0.25rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.3);
+  background-color: rgb(28, 28, 85, 0.9);
+  border-radius: 0.5rem;
+}
+.clock-container {
+  position: absolute;
+  top: 9rem; /* Push down slightly from the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Correct centering due to left: 50% */
+  width: 12rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080001;
+  color: #f94f6d;
+  font-size: 3rem;
+  font-family: "Cursed Timer ULiL";
+  border-radius: 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.3);
+}
+h3 {
+  color: #eee;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.24331rem;
+  text-shadow: 4px 4px 4px rgba(116, 116, 116, 0.3);
+}
+
+.score-container {
+  width: 7.3125rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+}
+
+#home-score,
+#guest-score {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  color: #f94f6d;
+  text-align: center;
+  font-family: "Cursed Timer ULiL";
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 7.91663rem;
+  width: 14rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+  background-color: #080001;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 4px #272c3a;
+}
+
+button {
+  color: #eee;
+  text-align: center;
+  font-family: "Cursed Timer ULiL";
+  font-size: 1.5rem;
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: 1.73825rem;
+  border-radius: 0.3125rem;
+  border: 2px solid #e0e2e5;
+  background-color: rgb(28, 28, 85);
+  padding: 1%rem;
+  width: 4rem;
+  height: 3rem;
+  margin: 22% 0 0 0.7rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px #586075;
+}
+/* Add this to your CSS file */
+.leader {
+  color: #73dd73;
+  text-shadow: 2px 2px 2px #73dd73; /* Highlight color */
+
+  /* border-radius: 5px;  */
+  /* padding: 0.8rem; */
+}
